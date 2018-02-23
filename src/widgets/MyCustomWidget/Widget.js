@@ -18,6 +18,8 @@ define([
         widgetName: "MyCustomWidget",
         postCreate: function () {
             this.inherited(arguments);
+
+            this.gpUrl.innerHTML = this.config.service.url;
         },
         onOpen: function () {
 
