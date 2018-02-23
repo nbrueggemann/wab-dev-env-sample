@@ -1,3 +1,4 @@
-wab/*.*
+node_modules/*
+wab/*
 
-node_modules/*.*
+
