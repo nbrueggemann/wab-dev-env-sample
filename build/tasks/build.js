@@ -32,7 +32,7 @@ const watchedFolders = [
 
 // Default task.  Called when just 'gulp' is run
 gulp.task('default', callback => runSequence(
-        'loadEnv',
+        'load-env',
         'configure',
         'copy-src',
         'copy-configs',
@@ -82,7 +82,7 @@ gulp.task('configure', function(callback){
     callback();
 });
 
-gulp.task('loadEnv', function(callback){
+gulp.task('load-env', function(callback){
 
     if(argv.env == "dev") {
         console.log("Loading dev env file.");
