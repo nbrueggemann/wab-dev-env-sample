@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^5.0.0",
-    "gulp": "^3.9.1",
-    "gulp-copy": "^1.0.1",
+    "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.6.1",
     "gulp-watch": "^4.3.11",
